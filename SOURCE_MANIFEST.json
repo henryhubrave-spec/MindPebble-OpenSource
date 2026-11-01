@@ -1,0 +1,1187 @@
+[
+  {
+    "path": ".github/workflows/android.yml",
+    "sha256": "db85bef046de662bfe9a7209147c958ef553fd00457348bdd94038b2df458009",
+    "bytes": 2257
+  },
+  {
+    "path": ".github/workflows/contracts.yml",
+    "sha256": "6a4717594f80f38bf7729dae314c3ef7838fa89e9c98d68a2619e771bb10284f",
+    "bytes": 694
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "3c28a064df3c01311e69ab7325f0eabc1fb3e603e209fcb0029fbfdade58320a",
+    "bytes": 474
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "sha256": "e55a6b8f162cae6ecf0f120d83cdbb378150879dd61864f67c654215d815ae23",
+    "bytes": 1112
+  },
+  {
+    "path": "LICENSE",
+    "sha256": "3c61e101430d0faea74e1e7d4a2f97158fced061f7eb1633b0df25fd9f869c10",
+    "bytes": 1085
+  },
+  {
+    "path": "README.md",
+    "sha256": "cad7891b1b52db69c90a4468a64a390b2238cf7d0ad190560fe8b1ba7e5bafc3",
+    "bytes": 5976
+  },
+  {
+    "path": "SECURITY.md",
+    "sha256": "0cd7577dede91f8e6c80674307060393286b5743f7f18cb4205cd683382b1919",
+    "bytes": 390
+  },
+  {
+    "path": "THIRD_PARTY_ASSETS.md",
+    "sha256": "f06401f8bdc5165cb31d4fcb0b08bcc3084e73d2460c1dc038e92d7311fafb6c",
+    "bytes": 559
+  },
+  {
+    "path": "apps/phone/README.md",
+    "sha256": "e563d45e1a2f8640d75f0adfe280b06fd22efaa1b816526510b6dcd789dac913",
+    "bytes": 2496
+  },
+  {
+    "path": "apps/phone/app/src/main/AndroidManifest.xml",
+    "sha256": "0c98ce83fe0a17b29d1f3bb7db585ba50ae5c25a9120bb8ab3d7a367fbab0346",
+    "bytes": 4042
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/THIRD_PARTY_NOTICES.txt",
+    "sha256": "b22760d0c81363dfd3fe505c209642cfa1cae5d2e696309162c1c3ed6ff18e9d",
+    "bytes": 15037
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/design/PlusJakartaSans-OFL.txt",
+    "sha256": "f9a8e776b4b048227f2f046b8716083eb04b1539d9ad1d4b87e81c1df28f86e3",
+    "bytes": 4401
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/design/PlusJakartaSans.ttf",
+    "sha256": "89b3fb38aa0d275d7a731d0d817a4f1622b316b4d7fbdedcf02ee9099ff68bc8",
+    "bytes": 176288
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/i18n/en.json",
+    "sha256": "ed956959391ca81cc33fadadcb400f2ac4afa9676573e25437160bf38a642e2d",
+    "bytes": 62152
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/SenseVoice-FunASR-MODEL_LICENSE.txt",
+    "sha256": "7dba975a2069691db4992b0592d70828b330d2f8a30a71450f4e152a554e84f8",
+    "bytes": 5306
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/android-vad-MIT.txt",
+    "sha256": "629e9e7279654fc96abcdee98bc725fe9dcc6cd37562e8f0575f8cbde9b83ce8",
+    "bytes": 1058
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/kotlin-Apache-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/onnxruntime-LICENSE.txt",
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "bytes": 1073
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/onnxruntime-ThirdPartyNotices.txt",
+    "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2",
+    "bytes": 325054
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/sherpa-onnx-LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/licenses/webrtc-BSD.txt",
+    "sha256": "ab00a482b6a3902e40211b43c5d0441962ea99b6cc7c25c0f243fa270b78d482",
+    "bytes": 1511
+  },
+  {
+    "path": "apps/phone/app/src/main/assets/offline-catalog.json",
+    "sha256": "53497b53a629b0de078b2fed635d7dfb20e5032fbcc806c4c950d0809057a8ed",
+    "bytes": 5149
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AgentSchemas.java",
+    "sha256": "4273b3958cfb51e558b6dc2bf7de6078f476e08e358e5786be39c449a3008d13",
+    "bytes": 2121
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AgentService.java",
+    "sha256": "bf516ffcf15636517bddaf7d0bc071d0262281c3b72bd50c13fb0eb4d2a78090",
+    "bytes": 12275
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AnalysisPipeline.java",
+    "sha256": "9816dab3999d04546ace1255573df120d695d1b72f8c58f18bbe8216f1078006",
+    "bytes": 9945
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AppLanguage.java",
+    "sha256": "f61a6aabaf529f52c347ee2e8094efc02f2185660835fbd4a1796e0fd549acc5",
+    "bytes": 2006
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AppScreen.java",
+    "sha256": "3ea76b5f473398239ebe095c269cd868a01cc706d916d3ac4f3eb65f519e3a23",
+    "bytes": 18979
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AudioActions.java",
+    "sha256": "7a57e97e6b99c4e30e588b596223616eca1ff8e888bfe838ec985b03aa010416",
+    "bytes": 1286
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AudioManagerActivity.java",
+    "sha256": "b4a5a38b6f1844f40cd1e70133c24214142366e9133075bae3b81703f7126f61",
+    "bytes": 5118
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/AudioReview.java",
+    "sha256": "1740ba8902bff8d645f1ea5cf2db6ef92c370c0898e5b19ee0b837d98e042b06",
+    "bytes": 4317
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/BackupActivity.java",
+    "sha256": "3beb002599cb2396904477960028dc02ed6ab03abf96c23e3e04f3787d19b427",
+    "bytes": 5272
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/BackupArchive.java",
+    "sha256": "2e28022c354b380e4adb0d7f7dd315bf63926175161d95e5a8b33bebdcdf63b5",
+    "bytes": 10709
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/CloudTranscription.java",
+    "sha256": "e62cdae78385f016c3ee3b3cbe95d2d4e6357827e5560356bd88243c9f51ce65",
+    "bytes": 7306
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ContentFilter.java",
+    "sha256": "fcde7058092a0ba2afef902d573a29904d977efa26185a60d7394562465847f6",
+    "bytes": 6970
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ContentVisibility.java",
+    "sha256": "d5f0c54f97ad10b9833a1f4d82f9a83d41dc842826c97787131c49a8332e12e8",
+    "bytes": 813
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ContextReminder.java",
+    "sha256": "b491aa31d500ec0e68c1eee41466174547adfc1e1ac3dc3e645f464d4a5963be",
+    "bytes": 3295
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ContextSummary.java",
+    "sha256": "2002f7109a8ace8a172184b81ee624fc2d195aedda6808877572aa539479cbb3",
+    "bytes": 1946
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/DayOverview.java",
+    "sha256": "1820140f219df7ef858209257dbfe5feb25d9b2b60c582048ba1c4f25894180d",
+    "bytes": 3893
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/DetailEvidence.java",
+    "sha256": "684eae7ae67f67d533998a68062e2194da0e5c674a3013977744700f54205b93",
+    "bytes": 9729
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/EventTimeline.java",
+    "sha256": "a18162ca438677016d2b92f65afc49be6d6c54b96fe79bd803ac812dd54dac37",
+    "bytes": 4861
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ExportActivity.java",
+    "sha256": "c0e5ed381d6349cb447adf85f8f5296cd531cb0e7553954c9e11ab23555dfc31",
+    "bytes": 13012
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/HourlyAutomation.java",
+    "sha256": "bd95145486d6b5d849047c959a45e7165ede2757a18e5110cddc86a6577d3bca",
+    "bytes": 3596
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/HourlySummaries.java",
+    "sha256": "28762168c544d2cb30bc2874e8b73037daaa024c0a8669465d767f2e475e007a",
+    "bytes": 15617
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/HourlySummaryActivity.java",
+    "sha256": "22694cc731a2eee1426857fbda1407f3622b99af4046c57fdb51d00ff8645626",
+    "bytes": 10825
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/HourlySummaryJobService.java",
+    "sha256": "14aa46053f59ad9a4385aeee0a5c40a0191f683c9a5be672b01e6027a2307da8",
+    "bytes": 3954
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LifeApp.java",
+    "sha256": "4f9f52f20c650cea043b717c6388cd94bb2a521af0347542c60c08377fa92695",
+    "bytes": 1914
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LifeMemory.java",
+    "sha256": "600a4f3ef5f2ca003a013d4d8493a2d7afa0aee5f143c817ea98f1fe7fe701a2",
+    "bytes": 18129
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LifeReview.java",
+    "sha256": "c309675151c380273e752a6ca2a58bb0f394acae37e755ab5ae80599e5ceb9f7",
+    "bytes": 10505
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LifeReviewActivity.java",
+    "sha256": "375d3569ee62d71a2f5e7c57bd23dc03367177389829e1e6ca26f0e482a9b6c0",
+    "bytes": 14802
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LocalDialog.java",
+    "sha256": "513fd3016c7b4eb7dd7eecc6608f673ad1f8a95d5c43ac1ff85d0f69a448194d",
+    "bytes": 4897
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LocalExport.java",
+    "sha256": "22dc614ae84bb8bab09136b0e85af0a8191533b49dd4d8f3b37d42fb62d9c731",
+    "bytes": 20920
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/LocalLibrary.java",
+    "sha256": "e0954fa2eac04840063c5b55d7961e18f5db5f3150637f35fe11cee4a9c0cbc9",
+    "bytes": 5121
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/MainActivity.java",
+    "sha256": "0ac02c03adffefd0f6fa83a5e7164b48e32996ad5d66034156de90c8ec28757b",
+    "bytes": 59504
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ModelDownloadService.java",
+    "sha256": "2a7dea8e2ddb57e74e75038b59e09d684c8caa76cc5fc3f5f3ae8767afa23666",
+    "bytes": 8941
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflineActivity.java",
+    "sha256": "bfe34076c0129bbd56a2dff72eb1a57d4faeabaa01c1b5dfcd33311a1422b5fb",
+    "bytes": 12442
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflineJobService.java",
+    "sha256": "1b9c1656b74990c293687296795d3b5b4c211005d869df27aa7a254209e61fa7",
+    "bytes": 936
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflinePacks.java",
+    "sha256": "f196a3ebfe644a223e544cb2418425ae690b491d906b082f676d6fce41e9ffc9",
+    "bytes": 6370
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflineProcessor.java",
+    "sha256": "f43a116202921600ae6133e327cb9bceff0c6132acd4157153cd1fce3e83971b",
+    "bytes": 8895
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflineRunService.java",
+    "sha256": "16e124fa29c87362751d2c5addaeb6d2dadf36b1d91f9d3adc6a49e44006752c",
+    "bytes": 3216
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflineScheduler.java",
+    "sha256": "95b89f0723bdc9c347032f7ffdf3ce72657af903295ec90c86bcc76c128f6fb8",
+    "bytes": 5986
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/OfflineSpeech.java",
+    "sha256": "57e086b9900c14c74917c8ddc75f2b6347d38f6fc124f5d602408e6e38757ff4",
+    "bytes": 20038
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/PebbleContext.java",
+    "sha256": "7a97f9b6e5c6faaecb8cc25896d5755baddf3e02dfd7f6208d33b7d07d504b95",
+    "bytes": 3520
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/PebbleDatePickerDialog.java",
+    "sha256": "678c8a31c95fafbf48aa710cc4dcbf7bb7bfb51708f9d5852870c09ca9bbdade",
+    "bytes": 376
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/PebbleIcon.java",
+    "sha256": "b12c4cecdb88698a7a2881ef868c9cab869fae6a41eba682f3b7128b68a01931",
+    "bytes": 2653
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/PebbleSurfaces.java",
+    "sha256": "d06724cf3809b18944751734737256c76f285822ae75f06cd3d276884995d76c",
+    "bytes": 6873
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/PebbleTimePickerDialog.java",
+    "sha256": "b5fa5df04107aa9fdc4ee74547363c3b2a58cefe8f6cd867143485da877c7786",
+    "bytes": 390
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/PlaybackTimeline.java",
+    "sha256": "555d8da6c2a3ed378c775e168f9d1021f4ae5edb3dddeea6eba173be54f415ce",
+    "bytes": 2462
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ProviderAddress.java",
+    "sha256": "44aeac21c5c46ceb6a3ce03d3b1d770d931146ba64dd99c94784126fdcc1dc5d",
+    "bytes": 1084
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ProviderClient.java",
+    "sha256": "9cf4a3e8c75a8794c61c958ba2fcf0ef6acd0b4a1b34a89827ac58e8c042b4d7",
+    "bytes": 10260
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/RecordActivity.java",
+    "sha256": "948184f4cef0384a52c3ab79073cd8960acf6e9b3f536eec316f250bd39efb4b",
+    "bytes": 23233
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/RecordSearch.java",
+    "sha256": "afa138a9bdbe999c81bda770ace9910d77ee3185dc580844270d7a1e41c7d0ac",
+    "bytes": 9435
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/RecordStore.java",
+    "sha256": "4db5e79368a590c16fb2853c4e12256b5b367d75abf35272eddcb63b0e30096b",
+    "bytes": 26803
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/ReminderReceiver.java",
+    "sha256": "1fc2551c505bc256e363006b9a232eeac9ad326357b9333233025f9430393ffc",
+    "bytes": 1671
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SearchActivity.java",
+    "sha256": "212a0189269ac985e060f329d3c3000690cae410f28f9f65c7c76e3b928dd7c9",
+    "bytes": 16739
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SecureSettings.java",
+    "sha256": "03bfd12ef7c5e062299ab4654d21632e6f14a6017262af37b8c3ffbb5c61b5cb",
+    "bytes": 5828
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SensorTraceView.java",
+    "sha256": "06993e3d11b89c17925769f07c5993aa76d425fed5a695975c39a88c1755fe2d",
+    "bytes": 2230
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SessionActivity.java",
+    "sha256": "c0cabb0ccf4c6f7ec661e79847ab6751d1884f9183477834cec0b40fee62337a",
+    "bytes": 15480
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SourceAnswer.java",
+    "sha256": "da9f62beee61f0444f6b0fc72b451968d98f5b5643f2b618b1e557fa72b0bcde",
+    "bytes": 7902
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SpeakerActions.java",
+    "sha256": "fe65984c9ffcc104f96dd2c1cc85027a24d35b3dcae67035e730e47d34595157",
+    "bytes": 3864
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SpeakerMatcher.java",
+    "sha256": "0127561f7883b7640217dd70d86bbcfedd16ac5472e3ca27ed672b7975b5557c",
+    "bytes": 5545
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SpeechRetention.java",
+    "sha256": "5e1e43e8c77ac3a622d0c431d3db9d6c8b20923fddfb26780ef8c6f4971f611d",
+    "bytes": 9177
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SyncReceiver.java",
+    "sha256": "a9f04fb19961db9090dc8b489bbd21705481d8897253b2ef840b275db547d775",
+    "bytes": 7524
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SyncRecovery.java",
+    "sha256": "9dbc673275e42747480644b03411239753b637cf97c3b59df1dd73a39677bbdb",
+    "bytes": 849
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/SyncService.java",
+    "sha256": "951b0adea06fbfbdce3e8244e555a03525303efb509a9a7f2d2d4c56dca7050e",
+    "bytes": 6241
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/TaskCenterActivity.java",
+    "sha256": "94147f542275fb115c55ddbf86513ec9001e42fc7126548eb25b27e62e3b472e",
+    "bytes": 10894
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/TaskProgress.java",
+    "sha256": "3e5eafc25cb7d70da21f0599170df5ccd27edcc4e7c0f951dc3a1a45587a444d",
+    "bytes": 1055
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/TranscriptDocument.java",
+    "sha256": "6d8c0ecfd6d868d4a400d26ce53e54e3d15b540458efb9d66f5ab59ef4339a8f",
+    "bytes": 3763
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/TranscriptViews.java",
+    "sha256": "3b8ffc362c7026e1667d3c5f692c136376855ae696e31ea3e998baafc4f9b299",
+    "bytes": 11492
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/TransferProgress.java",
+    "sha256": "fa77780e1eea1d0058af126e16e1e4fa745247aa74cd88066b372e39b6df41c8",
+    "bytes": 1740
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/UnderstandingAutomation.java",
+    "sha256": "4506cf5ff4bba77d281767ce88ae8888df924ab40eaf9cad8e300e48959481d4",
+    "bytes": 6025
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/VoiceEnrollmentActivity.java",
+    "sha256": "ee76b6853a4e2bdcf1ec15325df1184ed2674767adaa58f93615162d7d3d17d2",
+    "bytes": 5595
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/VoiceManager.java",
+    "sha256": "a0aba01ac1ec5e856cea1ca5412a55f5a45228e9567ebc6de716d4ff0af91d22",
+    "bytes": 3680
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/VoiceMemoActivity.java",
+    "sha256": "e648d5c0c613a4beb939a1ad5143bbfdc311a5d1e78436a45e66ca1fb9cb5ca3",
+    "bytes": 4150
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/VoiceProfiles.java",
+    "sha256": "02b573d55f64ead3c4f04d333f9cc8a327d6f0645ae954c00864feefe9d52938",
+    "bytes": 6317
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/VoiceSegmentActivity.java",
+    "sha256": "300b8ec88bc030414de5fc24d51ba7d262426184a4ea5f97f04599185a4ef44e",
+    "bytes": 13843
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/WatchArchive.java",
+    "sha256": "cdd69fdd63230116e8b1ac2f64578ccc05b36bb88c601077fc866026fe0365cf",
+    "bytes": 4256
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/WaveformView.java",
+    "sha256": "e8473a79d4827f6c1103e9430e4283568d42ae634459a6d94ae9f48452dfe96a",
+    "bytes": 4624
+  },
+  {
+    "path": "apps/phone/app/src/main/java/org/diy/liferecorder/WorkflowSchema.java",
+    "sha256": "763ef5214f52de02068f1b5a82f722b814f107a535125e37d22a98d8fc2f4b01",
+    "bytes": 3103
+  },
+  {
+    "path": "apps/phone/app/src/main/res/anim/dialog_enter.xml",
+    "sha256": "f604541510338a5dc67b33fa7c9514cd22a32a611d12ea6c59d473495f9e8e36",
+    "bytes": 373
+  },
+  {
+    "path": "apps/phone/app/src/main/res/anim/dialog_exit.xml",
+    "sha256": "c32e6ce0568d4d806f64f82823bab0d2baf74857e06ea69604255352e4a00336",
+    "bytes": 133
+  },
+  {
+    "path": "apps/phone/app/src/main/res/drawable/dialog_flat.xml",
+    "sha256": "f684254194063278838a7afaf6b0cfb208182ddd76aad5678869f6604b87d20f",
+    "bytes": 218
+  },
+  {
+    "path": "apps/phone/app/src/main/res/drawable/ic_companion.xml",
+    "sha256": "41b6aa7fd722dab124d2391b5816b556dd96ab2283c29a6cd6bbc2d09d3f6654",
+    "bytes": 578
+  },
+  {
+    "path": "apps/phone/app/src/main/res/drawable/ic_record.xml",
+    "sha256": "0129ad910405e8af6f8402077dff4205879c2b298240413680f26e528283cc4d",
+    "bytes": 275
+  },
+  {
+    "path": "apps/phone/app/src/main/res/values/styles.xml",
+    "sha256": "13f1e7868c341d88f34a46cdff3df184e171ec6faf322c3e6805bdade485c8ff",
+    "bytes": 2192
+  },
+  {
+    "path": "apps/phone/app/src/main/res/xml/no_backup.xml",
+    "sha256": "797cadb967affaf18fbb3ab1f802fcde16025c64ae328dd89900994583a93d92",
+    "bytes": 550
+  },
+  {
+    "path": "apps/phone/build.sh",
+    "sha256": "d53c5c1b752cfb7279fafe512ca9a508b2aa2705a6dfa1eca1f26825b233901f",
+    "bytes": 104
+  },
+  {
+    "path": "apps/phone/tests/AndroidManifest.xml",
+    "sha256": "fb9af7c5240d357924aa64b4a4b8c7dd367197f81ead037aa3129938708e81b4",
+    "bytes": 470
+  },
+  {
+    "path": "apps/phone/tests/PhoneSmokeTests.java",
+    "sha256": "348486ce6e212fd48294923ab990e949b65a36b1a00b626351937b5ce39b57be",
+    "bytes": 7075
+  },
+  {
+    "path": "apps/phone/tests/build.sh",
+    "sha256": "1cba4e71d7a92c0e07152df9a2b0f034a40c806a829a5ba67beaa8cab706df89",
+    "bytes": 1088
+  },
+  {
+    "path": "apps/watch-legacy/.gitignore",
+    "sha256": "ac5920e3f1522d3eafd853c9a9baee92d59cac40807d2bce32cffca06a927c0e",
+    "bytes": 30
+  },
+  {
+    "path": "apps/watch-legacy/LICENSE",
+    "sha256": "3c61e101430d0faea74e1e7d4a2f97158fced061f7eb1633b0df25fd9f869c10",
+    "bytes": 1085
+  },
+  {
+    "path": "apps/watch-legacy/README.md",
+    "sha256": "14d5e34ba7ec843b84e7754095eedab9b0b7404a773654d2553f1c18f076d92e",
+    "bytes": 1186
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/AndroidManifest.xml",
+    "sha256": "d3932e455e43fbb59d254b984658a78d8a288de99d0ea23cf4ed890e5af62608",
+    "bytes": 2330
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/THIRD_PARTY_NOTICES.txt",
+    "sha256": "0fba27c7930bed9aafaddf0c7239f598c033a8da4424a3772228b9529374dac8",
+    "bytes": 756
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/i18n/en.json",
+    "sha256": "92c2327831a1d67b1877218c7356ed908c419aaed72645b05d83449d83fdbd74",
+    "bytes": 66998
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/licenses/kotlin-Apache-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/licenses/onnxruntime-LICENSE.txt",
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "bytes": 1073
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/licenses/onnxruntime-ThirdPartyNotices.txt",
+    "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2",
+    "bytes": 325054
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/licenses/sherpa-onnx-LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/assets/wakeword/keywords.txt",
+    "sha256": "4360d12b527604ab514bbee98cd1a2f0f8bba452e887972c3c5386ab3ef1946e",
+    "bytes": 93
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/ArchivePolicy.java",
+    "sha256": "43788c24439163135afdc6d06ace14994a9ea6d92d820392a982861cfe0fe2c3",
+    "bytes": 4178
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/CaptureBootReceiver.java",
+    "sha256": "6df1d8ee2dc69b124c250fc0f3a75dc765b3987e2c216b1b1528bfffc1a95eee",
+    "bytes": 572
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/CaptureDiagnostics.java",
+    "sha256": "49fa40f25c769dcbfe07baf58e007411c26e79025f2835caafd6c666de82d066",
+    "bytes": 1158
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/CaptureIntent.java",
+    "sha256": "486fad77992b66ed4eb738cebb7cba4f666b603d62fcf83ee64640a35a715275",
+    "bytes": 3712
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/CaptureResumeReceiver.java",
+    "sha256": "0566e78616d1acaae4a656feb6b6855af148d717ace35d4c0532e19a0df05193",
+    "bytes": 387
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/CaptureWatchdogJob.java",
+    "sha256": "67eee885f9c591f488fe655d4b76e3b7012991a0d11502868faa8f2289a8fca2",
+    "bytes": 490
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/ContextRecorder.java",
+    "sha256": "fdd7d1d9f6d1292cc5d87259b2c61ff5d86f745c7402b6bc2b8f9cdc530d59a8",
+    "bytes": 8058
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/FinalizedDigest.java",
+    "sha256": "61a4275cfe0ea9fa951e749ad8c7a4782b28973cd6128cbaf2db0111b80c1259",
+    "bytes": 1514
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/LinkActivity.java",
+    "sha256": "f3c67df7c94a177b2e07c7d58d0cd08e482e8d5b6b1ffc2474a30378d0c9c37e",
+    "bytes": 6766
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/MainActivity.java",
+    "sha256": "16bc16cc873d2c7734c7534a563ccb7df1d43c3138b65775d2449983571cc85d",
+    "bytes": 11859
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/RecordingRecovery.java",
+    "sha256": "a91b18cdcd2f62e5a90ad6745d3839d91680d62026e31c157015798191f91a6c",
+    "bytes": 3183
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/RecordingService.java",
+    "sha256": "b80e3c95f8b4c8689243b3bd312bdc4be3e47d1bc39e79a3ae231b792103f48d",
+    "bytes": 18145
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/SharedAudioRecorder.java",
+    "sha256": "3c9b2587ad7ec150a5a7d97ec94d03852e772aa29d71c8aad4d0f0e219448e59",
+    "bytes": 5845
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WakeWordActivity.java",
+    "sha256": "95627d1fe076396606c2ed25c49afe9c3709ee2e17a7807aaa9c58705201b29c",
+    "bytes": 2688
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WakeWordEngine.java",
+    "sha256": "408295ca204b8fd1f9ba1a610206eeac2cb6c33d53f5c5a0d06a6939e2e5cdc7",
+    "bytes": 4555
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WatchApp.java",
+    "sha256": "6cd5e7a992c2b2b2ed42434a295eb2b49004fe5bbf04ac1e87c9fb263f333a6f",
+    "bytes": 1431
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WatchContextReminder.java",
+    "sha256": "9709e493888a7ce8b53821b77c99d05ab41da7f6d3de7975291a8136ae0c9e6b",
+    "bytes": 1627
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WatchDialog.java",
+    "sha256": "602a5f2ed2fdc2768e8c22b1c875dd5c0acca037ed4dc9c14b61397fe60112f3",
+    "bytes": 1196
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WatchLanguage.java",
+    "sha256": "10fc3eacd327f9bf14d536facb8e091760ee1c187b1fea1ca1415397b884540b",
+    "bytes": 2017
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WatchLink.java",
+    "sha256": "31af20677f359d972f627a0b0a105d6dcfbfa3fe2d7597c30277e94dc52e4601",
+    "bytes": 6760
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/java/org/diy/watchrecorder/WatchSyncJob.java",
+    "sha256": "7fd009e999e5b4d295a288347a9d4d7c7e193d7a1b154e176dfa63518f2521de",
+    "bytes": 2679
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/res/drawable/ic_companion.xml",
+    "sha256": "41b6aa7fd722dab124d2391b5816b556dd96ab2283c29a6cd6bbc2d09d3f6654",
+    "bytes": 578
+  },
+  {
+    "path": "apps/watch-legacy/app/src/main/res/drawable/ic_record.xml",
+    "sha256": "0129ad910405e8af6f8402077dff4205879c2b298240413680f26e528283cc4d",
+    "bytes": 275
+  },
+  {
+    "path": "apps/watch-legacy/build.sh",
+    "sha256": "4cd4b09e25f48059df5eefa2b2df3dd2521b748b453b860b9d9cbc2f980de593",
+    "bytes": 104
+  },
+  {
+    "path": "apps/watch-legacy/docs/integration.md",
+    "sha256": "df20487a5000cbbaeb961aca651f2f1846e08fe70e045aae41ceddccee0a0131",
+    "bytes": 2110
+  },
+  {
+    "path": "apps/watch-legacy/docs/test-record-template.csv",
+    "sha256": "575fd7bf11dba149eb90bfd8c6fdf61097864728f1793d2e735037f5d44e612d",
+    "bytes": 288
+  },
+  {
+    "path": "apps/watch-legacy/docs/validation.md",
+    "sha256": "ab13a866ec522eb8f545fc1b7d32451fdfbefc4f1d4f8c00a9aded56bc38045b",
+    "bytes": 349
+  },
+  {
+    "path": "apps/watch-legacy/tools/verify_export.py",
+    "sha256": "027a28a052b3516d2661b34c40e1b624721042176d3aabb1bd7692b6730ae1c6",
+    "bytes": 3257
+  },
+  {
+    "path": "config/README.md",
+    "sha256": "aa8959e287432365e67b1035c354b9b67b89f7c218d3aab89da345531b4d2050",
+    "bytes": 1064
+  },
+  {
+    "path": "config/capture-policy.example.json",
+    "sha256": "3b684aa71b51be941d71c46522968ad1224db11873c950cd7de340b9515c3023",
+    "bytes": 1933
+  },
+  {
+    "path": "config/provider-profiles.example.json",
+    "sha256": "41231601998eecedfb2acb6a4aeaf3a11d31fa6fd11d16131424485a59cd1584",
+    "bytes": 1610
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "sha256": "3d0e35cc0d5c5f0b1d206f66d02ad5d37e497afed0fe50e1210caf70fcb9daab",
+    "bytes": 4891
+  },
+  {
+    "path": "docs/BUILD.md",
+    "sha256": "e83c23db4fce593ea485c1cea35e45ce58752f7cf5eb0a8b9f11835f112db180",
+    "bytes": 2455
+  },
+  {
+    "path": "docs/DESIGN.md",
+    "sha256": "a763b2da228a507ca8e32cce4ba59feed6f5fb5e35b0dd8f408298100bafe81a",
+    "bytes": 5226
+  },
+  {
+    "path": "docs/GETTING_STARTED.md",
+    "sha256": "fd8b6e352d1626aae2e0a59bc01a9ed48510d1823be2ecb71e463086be9a74db",
+    "bytes": 4809
+  },
+  {
+    "path": "docs/ITERATION.md",
+    "sha256": "35c878da0ec6b5be2046907f4275d6d002af697df7f38ef5ac94212b9d416c18",
+    "bytes": 1073
+  },
+  {
+    "path": "docs/MINDPEBBLE_042.md",
+    "sha256": "139240c181ba1b0424844056b592f3515518531fa55fdb3e69494c49cd0078ce",
+    "bytes": 4805
+  },
+  {
+    "path": "docs/MINDPEBBLE_043.md",
+    "sha256": "437f09466396986051b6133e28766f34f7efa2cfbb1c904a4ba424b1581d89d2",
+    "bytes": 4086
+  },
+  {
+    "path": "docs/MINDPEBBLE_053.md",
+    "sha256": "90474b193e566a5214e5a05047c5f071a7397f2f0618c109ed2693107e74e762",
+    "bytes": 6483
+  },
+  {
+    "path": "docs/MINDPEBBLE_054.md",
+    "sha256": "6cfb7e3baee59af4a7d834a6fed5a29b0f372bb33a901f4c9b4837a4db8bea9d",
+    "bytes": 4198
+  },
+  {
+    "path": "docs/MINDPEBBLE_UNDERSTANDING.md",
+    "sha256": "5fb4d67f3454d2f867ab9c4bd4aa6ce6af4889b2bec962be97218ba324df5b1a",
+    "bytes": 8572
+  },
+  {
+    "path": "docs/OFFLINE_IMPLEMENTATION.md",
+    "sha256": "e17e4e5b4afbfbe5c5c3e3565a8a155ee68aca328fa5caafb126d58e8242e3b2",
+    "bytes": 1862
+  },
+  {
+    "path": "docs/OFFLINE_VOICE.md",
+    "sha256": "fcfc462e0cec9772b1e398081cd5754b7f7c9d28ec2ab9cfea303ef8eca53fd4",
+    "bytes": 5602
+  },
+  {
+    "path": "docs/OPEN_SOURCE_RELEASE.md",
+    "sha256": "cd1290a2277595b3f4d922ff7da0696e6631d7696c7707b72b7738336652f47c",
+    "bytes": 2867
+  },
+  {
+    "path": "docs/PRIVACY.md",
+    "sha256": "1781a10c1cdd17b18ae2f270a6581089039f8bb7323f8971f7f59d6513b82528",
+    "bytes": 1250
+  },
+  {
+    "path": "docs/PROCESS_OPTIMIZATION.md",
+    "sha256": "613e9ffd23293345fe908038396088796bd64cd02cd3d9070e0aabfc3f30d924",
+    "bytes": 3537
+  },
+  {
+    "path": "docs/PRODUCT.md",
+    "sha256": "c950090c40ccc3d9572d4c73ffb1f4ef700d52839f4ec48b43c7b6459c209e87",
+    "bytes": 6210
+  },
+  {
+    "path": "docs/RECORDING_AGENT.md",
+    "sha256": "085d2825deae8b2f43a3620ff3836b1c87731e2ccb338adf5341b8d06d08eef8",
+    "bytes": 9850
+  },
+  {
+    "path": "docs/RELEASE_VALIDATION.md",
+    "sha256": "2859f728256ef518a75bce1621886ea171a4aa69036582718fa7b1b3a2289ac3",
+    "bytes": 1524
+  },
+  {
+    "path": "docs/RESEARCH.md",
+    "sha256": "c84ea8bb63108c8d8bc2ce887175eb205c3eebcb70d9cc5856cccbe49adc645d",
+    "bytes": 5692
+  },
+  {
+    "path": "docs/SECURITY_REVIEW.md",
+    "sha256": "6fbe4a30b381a47665d6eeeb72b1331fce654f21c93ced8534e3aa7624840825",
+    "bytes": 800
+  },
+  {
+    "path": "docs/SENSORS.md",
+    "sha256": "13767b44e6c05e4c31f9d8c4458e4f8d5c640fec4a16ce496acb19ecd7e893a8",
+    "bytes": 1318
+  },
+  {
+    "path": "docs/SPEECH_RETENTION.md",
+    "sha256": "72071348276bbf12f32ae756c1a0fea8a4241288a40bf749e8d12cd5663e85a0",
+    "bytes": 1515
+  },
+  {
+    "path": "docs/STITCH_IMPLEMENTATION.md",
+    "sha256": "42a6ebaca8cbe5b8a7e08983be4f308b56a7387f4acef12af3515271f2848c97",
+    "bytes": 4288
+  },
+  {
+    "path": "docs/TASK_CENTER_041.md",
+    "sha256": "0e5e8f9d70a2ff4e48a90406bf681a146b9c257078e345b59b0c6f489431bb0f",
+    "bytes": 3555
+  },
+  {
+    "path": "docs/VALIDATION.md",
+    "sha256": "846e772979bea9b2b820f4ea2bdb9eead1bcd7006abbe29d8d8b57dda8776a16",
+    "bytes": 3863
+  },
+  {
+    "path": "docs/WATCH_DEPLOYMENT.md",
+    "sha256": "9e4bdaf63f5ee7970b09a3eeac27f37bc859f8051db238dc683b601687d990e3",
+    "bytes": 5790
+  },
+  {
+    "path": "docs/WATCH_POWER_045.md",
+    "sha256": "b7af2b3be442dbc8e099b9c83e6365b0b2d0175111abc03cd7fce6424778058b",
+    "bytes": 3849
+  },
+  {
+    "path": "docs/WATCH_RECOVERY_043.md",
+    "sha256": "cc4d8bd4226192871a4327618dba2ed84e79eb01905601cd2371d06104066cd6",
+    "bytes": 2862
+  },
+  {
+    "path": "docs/WATCH_WAKEWORD_044.md",
+    "sha256": "5d7b3feba9627d3075d024f50bc8315b3a51e3384c633276111982e34f60e767",
+    "bytes": 3300
+  },
+  {
+    "path": "docs/WORKSPACE_MAINTENANCE.md",
+    "sha256": "dbcc4ddfaa186cab0f240d791be1819d237ab374e652c0d1d31b389587daf665",
+    "bytes": 566
+  },
+  {
+    "path": "docs/decisions/0001-foundation.md",
+    "sha256": "173af62b4a39be5df255e03d1fddf394e569978efb1914a988a7bfa75ba7d880",
+    "bytes": 1747
+  },
+  {
+    "path": "docs/decisions/0002-phone-local-agent.md",
+    "sha256": "7618636b51a35ba85c4dd0a1c1371c9350ef5a9e8e9a92f44ff83bcd090a62d9",
+    "bytes": 1443
+  },
+  {
+    "path": "docs/decisions/0003-linked-local-runtime.md",
+    "sha256": "079b35f637258475b86858a1cf76eb97a78383c35c9e0855503f880f0482660e",
+    "bytes": 1073
+  },
+  {
+    "path": "docs/decisions/0004-bluetooth-only-sync.md",
+    "sha256": "180c2243d76c900fbf18d73dcb80a754b46a08e2e253f5f7e4aaf77bb006e1cd",
+    "bytes": 930
+  },
+  {
+    "path": "experiments/speech-retention/README.md",
+    "sha256": "897171e03690030a39cdd9671eeffcd7ecddffe7c7cc285be262e71173801024",
+    "bytes": 2134
+  },
+  {
+    "path": "experiments/speech-retention/preview.py",
+    "sha256": "1e55daf72e5e40673b9b0d62ecf0a9256065df21b95dd3f76a903883525625e5",
+    "bytes": 4309
+  },
+  {
+    "path": "experiments/speech-retention/requirements.txt",
+    "sha256": "9f8f9fec8fed4c0f86cdc911eeb36b38de5e66e8ebcdc2cac14989b22e1ac87b",
+    "bytes": 106
+  },
+  {
+    "path": "experiments/speech-retention/retention.py",
+    "sha256": "bcfbd5e518fe1d3e1b6dff5083aae298579dc2c5724387f35b2e993ccfeccca1",
+    "bytes": 1841
+  },
+  {
+    "path": "experiments/speech-retention/tests/test_retention.py",
+    "sha256": "1db1906590d3132c0267e68225742dd31433a707bee1d484f7a0b30d07c924e4",
+    "bytes": 2026
+  },
+  {
+    "path": "licenses/SenseVoice-FunASR-MODEL_LICENSE.txt",
+    "sha256": "7dba975a2069691db4992b0592d70828b330d2f8a30a71450f4e152a554e84f8",
+    "bytes": 5306
+  },
+  {
+    "path": "licenses/android-vad-MIT.txt",
+    "sha256": "629e9e7279654fc96abcdee98bc725fe9dcc6cd37562e8f0575f8cbde9b83ce8",
+    "bytes": 1058
+  },
+  {
+    "path": "licenses/kotlin-Apache-2.0.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "licenses/onnxruntime-LICENSE.txt",
+    "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
+    "bytes": 1073
+  },
+  {
+    "path": "licenses/onnxruntime-ThirdPartyNotices.txt",
+    "sha256": "0e07b95f3a8d6230037707c5c4a2b554d12c4cb67369669ac255635528ffcee2",
+    "bytes": 325054
+  },
+  {
+    "path": "licenses/sherpa-onnx-LICENSE.txt",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  {
+    "path": "licenses/webrtc-BSD.txt",
+    "sha256": "ab00a482b6a3902e40211b43c5d0441962ea99b6cc7c25c0f243fa270b78d482",
+    "bytes": 1511
+  },
+  {
+    "path": "packages/android-core/src/main/java/org/diy/lifecore/BluetoothTransport.java",
+    "sha256": "b094ad6ad9f80828270082516030ef1b4a6488f563e7d50d1e52b8aacf266dff",
+    "bytes": 4220
+  },
+  {
+    "path": "packages/android-core/src/main/java/org/diy/lifecore/LocalSecurity.java",
+    "sha256": "9cb11b63804cd8e08d03805064e3d4c36c812eda41793daf78846fef4272f0ad",
+    "bytes": 2376
+  },
+  {
+    "path": "packages/contracts/README.md",
+    "sha256": "1fee49f2bb0447a254ffbabf3602563c9575002fdfe2d1b7cd77522894ed0b72",
+    "bytes": 1263
+  },
+  {
+    "path": "packages/contracts/analysis-result.v1.schema.json",
+    "sha256": "5d5ada1159adfc22912a8e825aa8e3dcbefe6c59afb9baa8fe2d0c1480209934",
+    "bytes": 2129
+  },
+  {
+    "path": "packages/contracts/durability-receipt.v1.schema.json",
+    "sha256": "0750dc73de68f0a24494a950a6df9b335109d6a6c74d6ae9dc6405438a27db35",
+    "bytes": 864
+  },
+  {
+    "path": "packages/contracts/examples/analysis-result.synthetic.json",
+    "sha256": "5215d3ad1152dcaa6e059bad07d5e1e8372421cd2190d8d26bbfc9399587a41c",
+    "bytes": 579
+  },
+  {
+    "path": "packages/contracts/examples/legacy-metadata.synthetic.json",
+    "sha256": "59558a07efbc9a4fb2e2217361a49771d8a8ff620ec6861e98d597a4350930f0",
+    "bytes": 420
+  },
+  {
+    "path": "packages/contracts/legacy_adapter.py",
+    "sha256": "4b195d7daa692b85d33f5ae7ccada843e46a632e44b2b1a130ddc5bc29f7076c",
+    "bytes": 2808
+  },
+  {
+    "path": "packages/contracts/segment-manifest.v2.schema.json",
+    "sha256": "a666875b38ef6e62ebe2e3b78ab3cbe9961054b7955fc4873119408514f0670d",
+    "bytes": 2486
+  },
+  {
+    "path": "packages/contracts/tests/test_contracts.py",
+    "sha256": "24350c2e3346cb613f2309ec471ab705696d18cde036dbed8de3810cd32d709f",
+    "bytes": 4813
+  },
+  {
+    "path": "requirements-dev.txt",
+    "sha256": "3fcddf0ec6d96fb275ab5bd96439a40340bff29fa82e5bd9d28497f5647d4f6b",
+    "bytes": 188
+  },
+  {
+    "path": "services/agent/README.md",
+    "sha256": "a0b61846669ec44141e095ae73f6fa7af136d74cf557ce7ccac25c5aa87ff03c",
+    "bytes": 395
+  },
+  {
+    "path": "tests/agent/evaluate.py",
+    "sha256": "7ac55499ef772e2362f2ca55c42ac6951bbb37f0129a44d48940682c3bb4060b",
+    "bytes": 1680
+  },
+  {
+    "path": "tests/agent/test_evaluate.py",
+    "sha256": "e9cdc6b67b05ce84ade41981727be36b85e46cde09960c013024c8ffa0d82c9c",
+    "bytes": 904
+  },
+  {
+    "path": "tests/android/README.md",
+    "sha256": "8abc980808de7a3f5c671cc1034b6e029909e6dedc66bac5052f902844705694",
+    "bytes": 830
+  },
+  {
+    "path": "tests/android/build.sh",
+    "sha256": "a54f6e11a97f542c9b7ed8baf3c1177cf18fa1740b45345e9d5d46c31fdf51f8",
+    "bytes": 2043
+  },
+  {
+    "path": "tests/android/phone/AgentPipelineTests.java",
+    "sha256": "8cce66e0faa674d644798d544f175b6e1f5c829a578e5efc89dbbf9930f22f4d",
+    "bytes": 32201
+  },
+  {
+    "path": "tests/android/phone/AudayExperienceTests.java",
+    "sha256": "05625e261e79f0db0f2971388c81b4caf2d06270de2f97d9374a4244fc62796f",
+    "bytes": 8664
+  },
+  {
+    "path": "tests/android/phone/DetailPlaybackTests.java",
+    "sha256": "c988759204b98da7387d9c755c964d758ff356f7d7193d43e36edaa78813eb3d",
+    "bytes": 5171
+  },
+  {
+    "path": "tests/android/phone/ExportTests.java",
+    "sha256": "04ab766dc4186b4fc0dc346b7a0d72d665297576687d03e17c4566d392b82192",
+    "bytes": 12313
+  },
+  {
+    "path": "tests/android/phone/HourlySummaryTests.java",
+    "sha256": "217b890e93d8b45eff9b8baea5e28161fd09bb14d043b70ff520128e32c6cd5e",
+    "bytes": 28619
+  },
+  {
+    "path": "tests/android/phone/IntegrationTests.java",
+    "sha256": "77ac5afa67b582314f12571fbfbc7703edd6c4ed038f99f172f435d34bef9d7a",
+    "bytes": 91890
+  },
+  {
+    "path": "tests/android/phone/SearchMemoryTests.java",
+    "sha256": "8b469d6e02d5b54ac1bda6d74b0785afaf59029059fffc07f6009432cd33f184",
+    "bytes": 11199
+  },
+  {
+    "path": "tests/android/phone/UnderstandingTests.java",
+    "sha256": "63147297e8dbd7422a226285728cddbfada7a06676f9d009906357709b6a0241",
+    "bytes": 17506
+  },
+  {
+    "path": "tests/android/phone/WorkflowTests.java",
+    "sha256": "4e661f2cf89c2c78acfd20f5e396d1f700411e6dead426fa9181c7c1b6100acd",
+    "bytes": 16146
+  },
+  {
+    "path": "tests/android/run-regressions.py",
+    "sha256": "08a0d79214069cd38b9c0895841aaa9252d563bdbbacac0d117ffc28fb7b9114",
+    "bytes": 2301
+  },
+  {
+    "path": "tests/android/verify-042-ui.py",
+    "sha256": "2968925b986a26a767d261230341b33d9b1f2910ef44e8ec72b249e51b33f143",
+    "bytes": 2799
+  },
+  {
+    "path": "tests/android/verify-043-ui.py",
+    "sha256": "d348ef0bad7239508942dc11d4552888dc854f8cacc4a9c91fa18ae8876b4b4c",
+    "bytes": 3344
+  },
+  {
+    "path": "tests/android/verify-stitch-adaptive.py",
+    "sha256": "4ac93e6c9da5e6f9093f2541f9d0f7929aae4c026a01c486b7f7a169f2494c33",
+    "bytes": 3259
+  },
+  {
+    "path": "tests/android/verify-stitch-ui.py",
+    "sha256": "ceaccd54a49a082d7676b84b13df7538d4b67e6709792fed361d8c2affae8741",
+    "bytes": 2448
+  },
+  {
+    "path": "tests/android/verify-task-ui.py",
+    "sha256": "a9bd3b3b8d0cfe07a6c934be994dc777e1c82705a6d99f3f61e58396480ac97f",
+    "bytes": 2718
+  },
+  {
+    "path": "tests/android/watch/IntegrationTests.java",
+    "sha256": "e04686836d63dceb1b6531f9314ff494402f80267b9d8d7656844d3199945d7f",
+    "bytes": 24916
+  },
+  {
+    "path": "tests/android/watch/PowerTests.java",
+    "sha256": "62cf1c6b24ebd299dffc37ec7230378607380145fd8352e67374a78e08a9d3f4",
+    "bytes": 11048
+  },
+  {
+    "path": "tools/build-android.sh",
+    "sha256": "ed261aa03bc591e656eda354819df7ceae15b4f0a2ff7ead1b979af0ce930308",
+    "bytes": 3318
+  },
+  {
+    "path": "tools/check-apks.py",
+    "sha256": "ed1e418d4aa947971d805849dc297991fab0402eef46f278401fd06313f6d742",
+    "bytes": 907
+  },
+  {
+    "path": "tools/dependencies.lock.json",
+    "sha256": "cf4fd646a3745ea6b574e4f5abce253ff65443e7698f1552407d9a8db010406f",
+    "bytes": 939
+  },
+  {
+    "path": "tools/fetch-dependencies.py",
+    "sha256": "9488d3f60a70d5948b89a7516dee36dc6a503e9c8855ad5679c22f0290f3118d",
+    "bytes": 1326
+  },
+  {
+    "path": "tools/fetch-watch-wakeword.py",
+    "sha256": "e217214940790c279a64ab74bf1bdbe7fd44967ee13c3ae1a97cf1ae0546e00e",
+    "bytes": 1185
+  },
+  {
+    "path": "tools/prepare-open-source.py",
+    "sha256": "952a2e86481053fe577a230eac67533b8d4e4f3695108d00a3f2e8c1b1a81cbf",
+    "bytes": 3127
+  },
+  {
+    "path": "tools/watch-wakeword-model.lock.json",
+    "sha256": "d8ecb35b2bc9a6edf45356d4753a3c1174375150e49d44fec46e10b8c1ce4c6c",
+    "bytes": 3017
+  }
+]

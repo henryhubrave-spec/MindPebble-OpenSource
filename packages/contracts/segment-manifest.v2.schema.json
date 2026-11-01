@@ -1,0 +1,116 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "session_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "segment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "started_at_epoch_ms": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "ended_at_epoch_ms": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "elapsed_ms": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "clock_discontinuity": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "started_at_epoch_ms",
+        "ended_at_epoch_ms",
+        "elapsed_ms",
+        "clock_discontinuity"
+      ]
+    },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "file": {
+          "type": "string",
+          "maxLength": 180,
+          "pattern": "^(?!.*\\.\\.)[A-Za-z0-9][A-Za-z0-9._+\\-]*\\.m4a$"
+        },
+        "byte_length": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "declared_codec": {
+          "const": "aac"
+        },
+        "declared_container": {
+          "const": "mp4"
+        },
+        "channels": {
+          "const": 1
+        },
+        "requested_sample_rate_hz": {
+          "type": "integer",
+          "minimum": 8000,
+          "maximum": 192000
+        },
+        "requested_bit_rate": {
+          "type": "integer",
+          "minimum": 8000,
+          "maximum": 512000
+        }
+      },
+      "required": [
+        "file",
+        "byte_length",
+        "sha256",
+        "declared_codec",
+        "declared_container",
+        "channels",
+        "requested_sample_rate_hz",
+        "requested_bit_rate"
+      ]
+    },
+    "finalization_reason": {
+      "enum": [
+        "segment",
+        "pause",
+        "stop",
+        "error",
+        "service_destroyed"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "session_id",
+    "segment_id",
+    "sequence",
+    "capture",
+    "audio",
+    "finalization_reason"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SegmentManifest v2 (proposed)"
+}

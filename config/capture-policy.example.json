@@ -1,0 +1,63 @@
+{
+  "policy_version": 1,
+  "implementation_status": "design_and_offline_experiment_only",
+  "session_control": "explicit-user-start-pause-stop",
+  "vad": {
+    "proposed_default": "full_audio",
+    "engine_candidate": "webrtc-native",
+    "sample_rate_hz": 16000,
+    "frame_ms": 20,
+    "mode": 0,
+    "pre_roll_ms": 500,
+    "post_roll_ms": 800,
+    "merge_gap_ms": 700,
+    "marker_protect_pre_ms": 3000,
+    "marker_protect_post_ms": 8000,
+    "keep_uncertain": true,
+    "max_source_span_ms": 300000,
+    "retain_source_in_validation": true,
+    "sparse_time_mapping_required": true,
+    "enabled": false,
+    "control_surface": "phone-settings",
+    "phone_engine_status": "not-integrated",
+    "watch_apply_requires_capability_and_ack": true,
+    "rewrite_existing_audio": false
+  },
+  "sensors": {
+    "only_during_active_life_capture": true,
+    "pause_stops_active_collection": true,
+    "balanced_profile": {
+      "steps": {
+        "enabled_after_context_opt_in": true,
+        "strategy": "passive-events",
+        "aggregate_period_seconds": 60
+      },
+      "pressure": {
+        "enabled_after_context_opt_in": true,
+        "strategy": "burst-window",
+        "period_seconds": 60,
+        "window_max_seconds": 3,
+        "requested_rate_hz": 2,
+        "aggregate": "median"
+      },
+      "light": {
+        "enabled_after_context_opt_in": true,
+        "strategy": "on-change-capability-dependent",
+        "minimum_change_record_spacing_seconds": 10,
+        "aggregate_period_seconds": 60,
+        "try_batch_latency_seconds": 60
+      },
+      "heart_rate": {
+        "enabled": false,
+        "requires_explicit_body_sensor_permission": true,
+        "strategy": "periodic-window",
+        "period_seconds": 300,
+        "window_max_seconds": 20,
+        "early_stop_valid_samples": 3,
+        "aggregate": "median"
+      }
+    },
+    "missing_value": null,
+    "never_interpolate_as_measured": true
+  }
+}

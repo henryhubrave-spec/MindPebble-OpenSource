@@ -1,0 +1,11 @@
+MindPebble watch offline wake word
+
+sherpa-onnx 1.13.8, Kotlin 2.2.0 and ONNX Runtime: see full notices in assets/licenses/.
+https://github.com/k2-fsa/sherpa-onnx
+
+Chinese KWS weights: pkufool/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01.
+Model author marks Apache License 2.0 in the pinned README included at wakeword/README.md.
+Training provenance stated by the author: WenetSpeech L (10000 hours).
+Source: https://modelscope.cn/pkufool/sherpa-onnx-kws-zipformer-wenetspeech-3.3M-2024-01-01
+Exact file revisions and SHA-256 values are recorded in tools/watch-wakeword-model.lock.json in the source distribution.
+Wake detection stays local and does not upload audio. Models are shipped in this watch build; no model download occurs on the watch.

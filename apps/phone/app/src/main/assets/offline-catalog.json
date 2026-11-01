@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "engine": "sherpa-onnx-1.13.8",
+  "packs": [
+    {
+      "id": "lite",
+      "version": "a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da",
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01/resolve/a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da/model.int8.onnx",
+          "sha256": "68c9c943840f7d9cf3e8a4970ba50f404feb5277f611fa82b7e72267786fa84a",
+          "bytes": 26342340
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01/resolve/a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da/tokens.txt",
+          "sha256": "6fed8c6c248516f38e7faa19404b57413e8ce259f1cbc1fa4aebc86eac32fdfd",
+          "bytes": 13366
+        },
+        {
+          "name": "bbpe.model",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01/resolve/a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da/bbpe.model",
+          "sha256": "503204e0690eff065e30d0e01898c9ab06d0e6dc376a741eb6846198f95b2f82",
+          "bytes": 255180
+        },
+        {
+          "name": "benchmark.wav",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01/resolve/a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da/test_wavs/0.wav",
+          "sha256": "668bf8df51a10027b84d5d8816a1ce11ae93545538dc05cfe2aa6811d399c250",
+          "bytes": 179646
+        }
+      ],
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01",
+      "name": "轻量语音包",
+      "description": "Zipformer Small CTC INT8 · 中文转写，适合优先控制资源占用。",
+      "languages": "中文",
+      "license": "Zipformer / icefall / sherpa-onnx：Apache-2.0。模型与作者来源保留；本包包含上游公开短测试音频。",
+      "license_url": "https://huggingface.co/csukuangfj/icefall-streaming-zipformer-small-ctc-zh-2025-04-01"
+    },
+    {
+      "id": "standard",
+      "version": "2365baeacb507f821a0c8120fcee3d484dba7a07",
+      "files": [
+        {
+          "name": "model.int8.onnx",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/model.int8.onnx",
+          "sha256": "c71f0ce00bec95b07744e116345e33d8cbbe08cef896382cf907bf4b51a2cd51",
+          "bytes": 239233841
+        },
+        {
+          "name": "tokens.txt",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/tokens.txt",
+          "sha256": "f449eb28dc567533d7fa59be34e2abca8784f771850c78a47fb731a31429a1dc",
+          "bytes": 315894
+        },
+        {
+          "name": "benchmark.wav",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17/resolve/2365baeacb507f821a0c8120fcee3d484dba7a07/test_wavs/zh.wav",
+          "sha256": "b77f1794fe374a0ba1ee1dc458bfaf9349496cbbfc32780c50ba3c5a7ad8e373",
+          "bytes": 178988
+        }
+      ],
+      "source": "https://huggingface.co/csukuangfj/sherpa-onnx-sense-voice-zh-en-ja-ko-yue-2024-07-17",
+      "name": "标准语音包",
+      "description": "SenseVoiceSmall INT8 · 多语言转写，下载后按语音段在本机处理。",
+      "languages": "普通话、粤语、英语、日语、韩语",
+      "license": "SenseVoiceSmall © Alibaba Group。权重遵循 FunASR Model Open Source License Agreement v1.1，保留模型名与来源署名；转换工具许可不替代原始模型许可。",
+      "license_url": "https://huggingface.co/FunAudioLLM/SenseVoiceSmall"
+    },
+    {
+      "id": "speaker",
+      "version": "0743f301363dec56491a490f6d6cbc9d67f9a3bf",
+      "files": [
+        {
+          "name": "campplus.onnx",
+          "url": "https://huggingface.co/csukuangfj/speaker-embedding-models/resolve/0743f301363dec56491a490f6d6cbc9d67f9a3bf/3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx",
+          "bytes": 28281164,
+          "sha256": "aa3cfc16963a10586a9393f5035d6d6b57e98d358b347f80c2a30bf4f00ceba2"
+        },
+        {
+          "name": "benchmark.wav",
+          "url": "https://huggingface.co/csukuangfj/sherpa-onnx-streaming-zipformer-small-ctc-zh-int8-2025-04-01/resolve/a5f60fe00dcfbaf68fcc1c6b5cf53061e144d6da/test_wavs/0.wav",
+          "sha256": "668bf8df51a10027b84d5d8816a1ce11ae93545538dc05cfe2aa6811d399c250",
+          "bytes": 179646
+        }
+      ],
+      "source": "https://huggingface.co/csukuangfj/speaker-embedding-models",
+      "name": "声纹识别包",
+      "description": "3D-Speaker CAM++ · 本人声纹匹配与录音内语音段分组，两档语音包共用。多人重叠不分离。",
+      "languages": "中英文声纹",
+      "license": "3D-Speaker / CAM++，Apache-2.0。保留原作者、模型来源与许可证；声纹匹配结果需要核对。",
+      "license_url": "https://github.com/modelscope/3D-Speaker"
+    }
+  ]
+}

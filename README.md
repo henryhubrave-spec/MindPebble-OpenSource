@@ -45,7 +45,7 @@ VAD 可能漏掉轻声或远处说话：默认关闭，先保留原音，只有�
 - `packages/android-core`：安全蓝牙通道、加密令牌与本地安全工具。
 - `packages/contracts`：跨端契约参考与迁移测试；当前运行时协议见架构文档。
 - `tools`：统一构建、锁定依赖获取；`tests/android`：仅模拟器运行的集成测试。
-- 设计资源：公开版仅保留许可明确的字体与原创宣传图；`services/agent`：历史说明，不是部署要求。
+- 设计资源：公开版仅保留许可明确的字体；`services/agent`：历史说明，不是部署要求。
 
 [架构](docs/ARCHITECTURE.md) · [VAD](docs/SPEECH_RETENTION.md) · [采样](docs/SENSORS.md) · [迭代](docs/ITERATION.md)。原创代码 MIT；依赖许可见 `licenses/`。不包含竞品图片、私人录音、密钥或签名私钥。公开快照不携带开发仓库历史、个人设备记录或本地工作目录；尚未发布到应用商店。
 
@@ -57,6 +57,6 @@ VAD 可能漏掉轻声或远处说话：默认关闭，先保留原音，只有�
 
 ## 开源与参与
 
-[从零安装手表](docs/WATCH_DEPLOYMENT.md) · [隐私与数据流](docs/PRIVACY.md) · [开源发布流程](docs/OPEN_SOURCE_RELEASE.md) · [贡献](CONTRIBUTING.md) · [安全反馈](SECURITY.md) · [小红书图文](social/xiaohongshu/README.md)。
+[从零安装手表](docs/WATCH_DEPLOYMENT.md) · [隐私与数据流](docs/PRIVACY.md) · [开源发布流程](docs/OPEN_SOURCE_RELEASE.md) · [贡献](CONTRIBUTING.md) · [安全反馈](SECURITY.md)。
 
 公开版本是源码预览，APK 需按构建教程生成；不同开发者的签名不能覆盖安装。不要通过卸载来解决签名冲突而丢失数据。

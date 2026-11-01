@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.diy.watchrecorder" android:versionCode="10" android:versionName="0.4.5">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="26" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-feature android:name="android.hardware.type.watch" android:required="true" />
+    <uses-feature android:name="android.hardware.microphone" android:required="true" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <application android:name=".WatchApp" android:icon="@drawable/ic_companion" android:label="MindPebble" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false" android:fullBackupContent="false" android:debuggable="true" android:supportsRtl="true">
+        <meta-data android:name="com.google.android.wearable.standalone" android:value="true" />
+        <activity android:name=".MainActivity" android:exported="true">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity android:name=".WakeWordActivity" android:exported="false" />
+        <receiver android:name=".CaptureResumeReceiver" android:exported="false" />
+        <receiver android:name=".CaptureBootReceiver" android:exported="true"><intent-filter><action android:name="android.intent.action.BOOT_COMPLETED" /><action android:name="android.intent.action.MY_PACKAGE_REPLACED" /></intent-filter></receiver>
+        <service android:name=".CaptureWatchdogJob" android:exported="true" android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service android:name=".RecordingService" android:exported="false" android:stopWithTask="false" />
+    <activity android:name=".LinkActivity" android:exported="false" /><service android:name=".WatchSyncJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true" /></application>
+</manifest>

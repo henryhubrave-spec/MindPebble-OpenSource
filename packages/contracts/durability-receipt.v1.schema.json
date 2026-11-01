@@ -1,0 +1,46 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "receipt_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "receiver_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "segment_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "audio_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "level": {
+      "enum": [
+        "phone_durable",
+        "server_durable"
+      ]
+    },
+    "stored_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": [
+    "schema_version",
+    "receipt_id",
+    "receiver_id",
+    "segment_id",
+    "audio_sha256",
+    "level",
+    "stored_at"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DurabilityReceipt v1 (proposed)"
+}

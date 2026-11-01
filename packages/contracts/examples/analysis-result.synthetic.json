@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "analysis_run_id": "22222222-2222-4222-8222-222222222222",
+  "status": "completed",
+  "model_profile_id": "synthetic-test",
+  "model_id": "mock-no-network",
+  "prompt_version": "summary-v1",
+  "template_version": "meeting-v1",
+  "claims": [
+    {
+      "text": "示例：用户计划稍后复盘。",
+      "sources": [
+        {
+          "segment_id": "33333333-3333-4333-8333-333333333333",
+          "transcript_revision_id": "44444444-4444-4444-8444-444444444444",
+          "start_ms": 100,
+          "end_ms": 1500
+        }
+      ]
+    }
+  ]
+}

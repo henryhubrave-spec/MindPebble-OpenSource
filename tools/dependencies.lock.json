@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "webrtc-2.0.10.aar",
+    "url": "https://jitpack.io/com/github/gkonovalov/android-vad/webrtc/2.0.10/webrtc-2.0.10.aar",
+    "sha256": "9af5ed5185b97dd4832d9cf41e7f1d7d11367760d5011689b5e32b8fee073db4"
+  },
+  {
+    "filename": "kotlin-stdlib-2.2.0.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/2.2.0/kotlin-stdlib-2.2.0.jar",
+    "sha256": "65d12d85a3b865c160db9147851712a64b10dadd68b22eea22a95bf8a8670dca"
+  },
+  {
+    "filename": "r8-8.10.21.jar",
+    "url": "https://dl.google.com/dl/android/maven2/com/android/tools/r8/8.10.21/r8-8.10.21.jar",
+    "sha256": "bbdf3f6431af895d72a5f4bed6fbdde2b43241ec98b36992c554ce4a6dd7892b"
+  },
+  {
+    "filename": "sherpa-onnx-1.13.8.aar",
+    "url": "https://jitpack.io/com/github/k2-fsa/sherpa-onnx/sherpa-onnx/v1.13.8/sherpa-onnx-v1.13.8.aar",
+    "sha256": "633c24321e06b1fe79feafa03ea16cbc0f8a286641e2da3559bac91bdb13bd96"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "configuration_version": 2,
+  "architecture": "phone-local-agent",
+  "mobile": {
+    "storage": "app-private-local",
+    "credential_storage": "android-keystore-aes-gcm",
+    "cloud_backup": false,
+    "telemetry": false,
+    "auto_ai_processing": false,
+    "external_actions_enabled": false
+  },
+  "ai": {
+    "asr": {
+      "enabled": false,
+      "adapter": "unconfigured",
+      "base_url": null,
+      "model": null,
+      "api_key": null,
+      "api_key_storage": "phone-encrypted-secret-reference",
+      "outbound_content": "explicitly-selected-audio-only"
+    },
+    "llm": {
+      "enabled": false,
+      "adapter": "unconfigured",
+      "base_url": null,
+      "model": null,
+      "api_key": null,
+      "api_key_storage": "phone-encrypted-secret-reference",
+      "outbound_content": "selected-transcript-and-minimal-context-only"
+    }
+  },
+  "agent": {
+    "runtime": "phone-local",
+    "jobs": "local-durable-queue-planned",
+    "keyword_search": "local",
+    "memory": "local",
+    "tasks": "local",
+    "remote_embeddings": false
+  },
+  "vad": {
+    "enabled": false,
+    "control_surface": "phone-settings",
+    "implementation_status": "preference-only-engine-not-integrated",
+    "rewrite_existing_audio": false
+  },
+  "network": {
+    "default": "no-requests",
+    "allow_only": "explicit-user-ai-job-or-paired-local-device-sync",
+    "provider_redirects_with_credentials": false
+  },
+  "watch_cleanup": {
+    "requires": "authenticated-phone-durable-receipt-and-user-retention-policy",
+    "requires_server_copy": false
+  },
+  "runtime_status": "design-example-not-loaded-by-app"
+}

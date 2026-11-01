@@ -1,0 +1,2 @@
+# Optional, offline experiment only. Android native integration is not included.
+webrtcvad-wheels==2.0.14

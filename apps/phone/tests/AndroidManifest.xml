@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.diy.liferecorder.tests">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+    <instrumentation android:name="org.diy.liferecorder.PhoneSmokeTests" android:targetPackage="org.diy.liferecorder" android:label="Synthetic local phone tests" />
+    <application android:label="Synthetic phone tests" android:allowBackup="false" android:debuggable="true" />
+</manifest>
